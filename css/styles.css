@@ -1,0 +1,30 @@
+/* CSS Reset */
+body, header, nav, footer, ul, figure, figcaption, section, article, aside, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+nav {
+    text-align: center;
+    background-color: #933e3e;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    padding: 1em 1em;
+    color: #0c0f0d;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #595656;
+    color: #f20505;
+}
+
+img {
+    height: 380px;
+}
