@@ -5,9 +5,15 @@ body, header, nav, footer, ul, figure, figcaption, section, article, aside, audi
     border: 0;
 }
 
+@font-face {
+    font-family: SDNoise;
+    src:url("fonts/SDNoise/SdnoisedemoRegular-ALKGL.ttf");
+}
+
 nav {
     text-align: center;
     background-color: #933e3e;
+    padding-bottom: 0.5em;
 }
 
 nav li {
@@ -15,9 +21,10 @@ nav li {
 }
 
 nav li a {
-    padding: 1em 1em;
+    padding: 1em 4em;
     color: #0c0f0d;
     text-decoration: none;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 nav li a:hover {
@@ -28,3 +35,25 @@ nav li a:hover {
 img {
     height: 380px;
 }
+
+h1 {
+    font-family: SDNoise, sans-serif;
+    text-align: center;
+}
+
+#self-portrait img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+#self-portrait figcaption {
+    text-align: center;
+}
+
+footer p {
+    padding-top: 8em;
+    text-align: center;
+}
+
