@@ -13,7 +13,8 @@ body, header, nav, footer, ul, figure, figcaption, section, article, aside, audi
 nav {
     text-align: center;
     background-color: #933e3e;
-    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    margin-bottom: 25px;
 }
 
 nav li {
@@ -32,8 +33,13 @@ nav li a:hover {
     color: #f20505;
 }
 
+body {
+    min-height: 100vh;
+}
+
 img {
     height: 380px;
+    border: solid #933e3e 2px;
 }
 
 h1 {
@@ -57,3 +63,107 @@ footer p {
     text-align: center;
 }
 
+footer a {
+    text-decoration: none;
+    color: #0c0f0d;
+}
+
+#landing-gallery {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 0px 200px;
+}
+
+#landing-gallery img[src="images/Facade.jpg"] {
+    width: 500px;
+}
+
+#about-main {
+    margin: 0 500px;
+    text-align: justify;
+}
+
+#hobbies-gallery {
+    margin: 0 350px;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+}
+
+#church {
+    display: inline-block;
+}
+
+#church figure {
+    float: right;
+}
+
+#church p {
+    float: left;
+}
+
+#sar {
+    display: block;
+    clear: both;
+}
+
+#sar figure{
+    float: left;
+}
+
+#sar p {
+    float: right;
+}
+
+#fire {
+    display: block;
+    clear: both;
+}
+
+#fire figure{
+    float: right;
+}
+
+#fire p {
+    float: left;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    color: white;
+}
+
+.button {
+    text-align: center;
+    text-decoration: none;
+    background-color: #0c0f0d;
+    color: white;
+    padding: 10px;
+    transition-duration: .4s;
+    border-radius: .25em;
+    margin: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button:hover {
+    background-color: #f20505;
+    color: #0c0f0d;
+}
+
+html {
+    background-image: linear-gradient(#0C0F0D, #43515C);
+}
+
+p {
+    font-family: Lato, sans-serif;
+    color: white;
+}
+
+h1 {
+    color: #f20505;
+}
