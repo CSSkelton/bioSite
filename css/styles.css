@@ -7,13 +7,17 @@ body, header, nav, footer, ul, figure, figcaption, section, article, aside, audi
 
 @font-face {
     font-family: SDNoise;
-    src:url("fonts/SDNoise/SdnoisedemoRegular-ALKGL.ttf");
+    src:
+        local(SDNoise),
+        url("../fonts/SDNoise/SdnoisedemoRegular-ALKGL.ttf") format("truetype"),
+        url("../fonts/SDNoise/Sdnoisedemo-DOwLW.otf") format("opentype");
 }
 
 nav {
     text-align: center;
     background-color: #933e3e;
     padding-top: 0.5em;
+    padding-bottom: 1em;
     margin-bottom: 25px;
 }
 
@@ -26,6 +30,8 @@ nav li a {
     color: #0c0f0d;
     text-decoration: none;
     font-family: 'Bebas Neue', sans-serif;
+    font-size: 14pt;
+    font-style: bold;
 }
 
 nav li a:hover {
@@ -87,44 +93,6 @@ footer a {
     margin: 0 350px;
     display: grid;
     grid-template-rows: auto auto auto auto;
-}
-
-#church {
-    display: inline-block;
-}
-
-#church figure {
-    float: right;
-}
-
-#church p {
-    float: left;
-}
-
-#sar {
-    display: block;
-    clear: both;
-}
-
-#sar figure{
-    float: left;
-}
-
-#sar p {
-    float: right;
-}
-
-#fire {
-    display: block;
-    clear: both;
-}
-
-#fire figure{
-    float: right;
-}
-
-#fire p {
-    float: left;
 }
 
 figure {
